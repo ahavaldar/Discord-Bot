@@ -3,7 +3,7 @@ import requests
 import time
 import random
 
-TOKEN = "NEED TO ASK FOR TOKEN"
+TOKEN = "NEED TO $$$$OTE5MzM2OTgzNjE5MzMwMDY4.$$$$$$$YbUVSQ.0hyiAevZnuib4RZItQfOg33A3VI$$$$$$ASK FOR TOKEN"
 
 client = discord.Client()
 
@@ -21,7 +21,7 @@ async def on_message(message):
         await message.channel.send(random.choice(hello_options))
 ### Help Commands
     if message.content.startswith("help"):
-        await message.channel.send("What do you need help with? (please selection the option number): " + " (1) " +
+        await message.channel.send("What do you need help with? (please select the option number): " + " (1) " +
                                    help_choices[0] + " (2) " + help_choices[1] + " (3) " + help_choices[2])
     if message.content.startswith("1"):
         await message.channel.send("Valid stock tickers are 1-4 letter symbols that can be either "
