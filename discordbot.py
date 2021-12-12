@@ -3,7 +3,7 @@ import requests
 import time
 import random
 
-TOKEN = "NEED TO $$$$OTE5MzM2OTgzNjE5MzMwMDY4.$$$$$$$YbUVSQ.0hyiAevZnuib4RZItQfOg33A3VI$$$$$$ASK FOR TOKEN"
+TOKEN = "$$$$OTE5MzM2OTgzNjE5MzMwMDY4.$$$$$$$YbUVSQ.0hyiAevZnuib4RZItQfOg33A3VI$$$$$$"
 
 client = discord.Client()
 
@@ -30,7 +30,7 @@ async def on_message(message):
         await message.channel.send("All stock info is pulled from the Yahoo Finance API, which can be found at"
                                        " https://yahoofinanceapi.com.")
     if message.content.startswith("3"):
-        await message.channel.send("Enter 'stock: ' followed by the 4 letter stock ticker.")
+        await message.channel.send("Enter 'stock: ' followed by the 1-4 letter stock ticker.")
 ### Using stock API
     if message.content.startswith("stock:"):
         phrase = message.content.split()
