@@ -10,3 +10,5 @@ The bot has multiple commands. A help command, where when "help" is typed it giv
 The stock information command, where when "stock: " is typed followed by the ticker, stock information is given. 
 The bot responds to "Hi".
 The bot also welcomes people into the server. 
+
+The python code for the project is also in the repo, and the token is there but just with $$$$ inserted to bypass discord security.
