@@ -11,4 +11,4 @@ The stock information command, where when "stock: " is typed followed by the tic
 The bot responds to "Hi".
 The bot also welcomes people into the server. 
 
-The python code for the project is also in the repo, and the token is there but just with $$$$ inserted to bypass discord security.
+The python code for the project is also in the repo.
